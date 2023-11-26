@@ -7,320 +7,196 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1609E897DC00C5C464E2F4A0 /* Pods_VirtualNumberAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC9E38F5BEC9C13E248FEC3 /* Pods_VirtualNumberAppTests.framework */; };
-		6180FFAD94A650EFE7E44377 /* Pods_VirtualNumberApp_VirtualNumberAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91B54E281F7083AD92F0EFA /* Pods_VirtualNumberApp_VirtualNumberAppUITests.framework */; };
-		93C516382B139B3900F6D9DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C516372B139B3900F6D9DB /* AppDelegate.swift */; };
-		93C5163A2B139B3900F6D9DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C516392B139B3900F6D9DB /* SceneDelegate.swift */; };
-		93C5163C2B139B3900F6D9DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C5163B2B139B3900F6D9DB /* ViewController.swift */; };
-		93C5163F2B139B3900F6D9DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93C5163D2B139B3900F6D9DB /* Main.storyboard */; };
-		93C516412B139B3A00F6D9DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93C516402B139B3A00F6D9DB /* Assets.xcassets */; };
-		93C516442B139B3A00F6D9DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93C516422B139B3A00F6D9DB /* LaunchScreen.storyboard */; };
-		93C5164F2B139B3A00F6D9DB /* VirtualNumberAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C5164E2B139B3A00F6D9DB /* VirtualNumberAppTests.swift */; };
-		93C516592B139B3A00F6D9DB /* VirtualNumberAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C516582B139B3A00F6D9DB /* VirtualNumberAppUITests.swift */; };
-		93C5165B2B139B3A00F6D9DB /* VirtualNumberAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C5165A2B139B3A00F6D9DB /* VirtualNumberAppUITestsLaunchTests.swift */; };
-		93C516692B139B8100F6D9DB /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C516682B139B8100F6D9DB /* DataSource.swift */; };
-		93C5166C2B139BEA00F6D9DB /* MessagesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C5166B2B139BEA00F6D9DB /* MessagesListCell.swift */; };
-		93C5166E2B139BFB00F6D9DB /* InfoTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C5166D2B139BFB00F6D9DB /* InfoTableCell.swift */; };
-		93C516702B139C1500F6D9DB /* AdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C5166F2B139C1500F6D9DB /* AdCell.swift */; };
-		93C516742B139D9E00F6D9DB /* CallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C516732B139D9E00F6D9DB /* CallViewController.swift */; };
-		93C516762B139DCF00F6D9DB /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C516752B139DCF00F6D9DB /* ChatViewController.swift */; };
-		93C516782B139DE700F6D9DB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C516772B139DE700F6D9DB /* HomeViewController.swift */; };
-		93C5167A2B139DF600F6D9DB /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C516792B139DF600F6D9DB /* InfoViewController.swift */; };
-		93C5167C2B139E0500F6D9DB /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C5167B2B139E0500F6D9DB /* NoteViewController.swift */; };
-		93C5167E2B139E4700F6D9DB /* DashboardTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C5167D2B139E4700F6D9DB /* DashboardTabBarController.swift */; };
-		93DD0DC4F4856150844A42E0 /* Pods_VirtualNumberApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85843F6DC00E809CB6712059 /* Pods_VirtualNumberApp.framework */; };
+		8DF47995820318AB8E8F0B40 /* Pods_VirtualNumberApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6766F144B279E8005842B5B9 /* Pods_VirtualNumberApp.framework */; };
+		E202FF282B0DF47000D77A59 /* MessagesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E202FF272B0DF47000D77A59 /* MessagesListCell.swift */; };
+		E20B78E52B0F77B0002F5DCF /* AdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20B78E42B0F77AF002F5DCF /* AdCell.swift */; };
+		E22642882B0FC48B005DD885 /* Ekran Resmi 2023-11-10 17.21.03.png in Resources */ = {isa = PBXBuildFile; fileRef = E22642862B0FC48A005DD885 /* Ekran Resmi 2023-11-10 17.21.03.png */; };
+		E22642892B0FC48B005DD885 /* Ekran Resmi 2023-11-10 17.21.34.png in Resources */ = {isa = PBXBuildFile; fileRef = E22642872B0FC48A005DD885 /* Ekran Resmi 2023-11-10 17.21.34.png */; };
+		E226428B2B0FC549005DD885 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E226428A2B0FC549005DD885 /* DataSource.swift */; };
+		E23942382B0DB47B00E04C03 /* CallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23942372B0DB47A00E04C03 /* CallViewController.swift */; };
+		E239423A2B0DB49100E04C03 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23942392B0DB49100E04C03 /* ChatViewController.swift */; };
+		E239423C2B0DB4BE00E04C03 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E239423B2B0DB4BE00E04C03 /* HomeViewController.swift */; };
+		E239423E2B0DB4CA00E04C03 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E239423D2B0DB4CA00E04C03 /* InfoViewController.swift */; };
+		E23942402B0DB4DE00E04C03 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E239423F2B0DB4DE00E04C03 /* NoteViewController.swift */; };
+		E23942422B0DB4F300E04C03 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23942412B0DB4F300E04C03 /* TabbarController.swift */; };
+		E2AE35C32B0DC1C00092DC87 /* InfoTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AE35C22B0DC1C00092DC87 /* InfoTableCell.swift */; };
+		E2E288732B0C7D2D00FCCC60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E288722B0C7D2D00FCCC60 /* AppDelegate.swift */; };
+		E2E288752B0C7D2D00FCCC60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E288742B0C7D2D00FCCC60 /* SceneDelegate.swift */; };
+		E2E288772B0C7D2D00FCCC60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E288762B0C7D2D00FCCC60 /* ViewController.swift */; };
+		E2E2887A2B0C7D2D00FCCC60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2E288782B0C7D2D00FCCC60 /* Main.storyboard */; };
+		E2E2887C2B0C7D3000FCCC60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2E2887B2B0C7D3000FCCC60 /* Assets.xcassets */; };
+		E2E2887F2B0C7D3000FCCC60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2E2887D2B0C7D3000FCCC60 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		93C5164B2B139B3A00F6D9DB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 93C5162C2B139B3900F6D9DB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 93C516332B139B3900F6D9DB;
-			remoteInfo = VirtualNumberApp;
-		};
-		93C516552B139B3A00F6D9DB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 93C5162C2B139B3900F6D9DB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 93C516332B139B3900F6D9DB;
-			remoteInfo = VirtualNumberApp;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		93C516852B139EED00F6D9DB /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		5A48EC10093C9EFBDCE17E1E /* Pods-VirtualNumberAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualNumberAppTests.release.xcconfig"; path = "Target Support Files/Pods-VirtualNumberAppTests/Pods-VirtualNumberAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		5CC9E38F5BEC9C13E248FEC3 /* Pods_VirtualNumberAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirtualNumberAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		804D995297BDA98278B6DA92 /* Pods-VirtualNumberApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualNumberApp.release.xcconfig"; path = "Target Support Files/Pods-VirtualNumberApp/Pods-VirtualNumberApp.release.xcconfig"; sourceTree = "<group>"; };
-		85843F6DC00E809CB6712059 /* Pods_VirtualNumberApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirtualNumberApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93C516342B139B3900F6D9DB /* VirtualNumberApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualNumberApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		93C516372B139B3900F6D9DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		93C516392B139B3900F6D9DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		93C5163B2B139B3900F6D9DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		93C5163E2B139B3900F6D9DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		93C516402B139B3A00F6D9DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		93C516432B139B3A00F6D9DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		93C516452B139B3A00F6D9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93C5164A2B139B3A00F6D9DB /* VirtualNumberAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualNumberAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		93C5164E2B139B3A00F6D9DB /* VirtualNumberAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualNumberAppTests.swift; sourceTree = "<group>"; };
-		93C516542B139B3A00F6D9DB /* VirtualNumberAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualNumberAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		93C516582B139B3A00F6D9DB /* VirtualNumberAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualNumberAppUITests.swift; sourceTree = "<group>"; };
-		93C5165A2B139B3A00F6D9DB /* VirtualNumberAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualNumberAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		93C516682B139B8100F6D9DB /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
-		93C5166B2B139BEA00F6D9DB /* MessagesListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesListCell.swift; sourceTree = "<group>"; };
-		93C5166D2B139BFB00F6D9DB /* InfoTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableCell.swift; sourceTree = "<group>"; };
-		93C5166F2B139C1500F6D9DB /* AdCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdCell.swift; sourceTree = "<group>"; };
-		93C516732B139D9E00F6D9DB /* CallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallViewController.swift; sourceTree = "<group>"; };
-		93C516752B139DCF00F6D9DB /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
-		93C516772B139DE700F6D9DB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		93C516792B139DF600F6D9DB /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
-		93C5167B2B139E0500F6D9DB /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
-		93C5167D2B139E4700F6D9DB /* DashboardTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTabBarController.swift; sourceTree = "<group>"; };
-		B16F9504A4B8E4C993830E38 /* Pods-VirtualNumberAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualNumberAppTests.debug.xcconfig"; path = "Target Support Files/Pods-VirtualNumberAppTests/Pods-VirtualNumberAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B243B2FE446FF55ACE2C63E7 /* Pods-VirtualNumberApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualNumberApp.debug.xcconfig"; path = "Target Support Files/Pods-VirtualNumberApp/Pods-VirtualNumberApp.debug.xcconfig"; sourceTree = "<group>"; };
-		B9A10EACA209BA79386FD55D /* Pods-VirtualNumberApp-VirtualNumberAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualNumberApp-VirtualNumberAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-VirtualNumberApp-VirtualNumberAppUITests/Pods-VirtualNumberApp-VirtualNumberAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		EFAEEC05459AE9F0DFB8AFEA /* Pods-VirtualNumberApp-VirtualNumberAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualNumberApp-VirtualNumberAppUITests.release.xcconfig"; path = "Target Support Files/Pods-VirtualNumberApp-VirtualNumberAppUITests/Pods-VirtualNumberApp-VirtualNumberAppUITests.release.xcconfig"; sourceTree = "<group>"; };
-		F91B54E281F7083AD92F0EFA /* Pods_VirtualNumberApp_VirtualNumberAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirtualNumberApp_VirtualNumberAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC507B37603DC7727BD0D4C /* Pods-VirtualNumberApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualNumberApp.release.xcconfig"; path = "Target Support Files/Pods-VirtualNumberApp/Pods-VirtualNumberApp.release.xcconfig"; sourceTree = "<group>"; };
+		58FAF3DAAA25D8C7C9684DED /* Pods-VirtualNumberApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualNumberApp.debug.xcconfig"; path = "Target Support Files/Pods-VirtualNumberApp/Pods-VirtualNumberApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6766F144B279E8005842B5B9 /* Pods_VirtualNumberApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirtualNumberApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E202FF272B0DF47000D77A59 /* MessagesListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesListCell.swift; sourceTree = "<group>"; };
+		E20B78E42B0F77AF002F5DCF /* AdCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdCell.swift; sourceTree = "<group>"; };
+		E22642862B0FC48A005DD885 /* Ekran Resmi 2023-11-10 17.21.03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ekran Resmi 2023-11-10 17.21.03.png"; sourceTree = "<group>"; };
+		E22642872B0FC48A005DD885 /* Ekran Resmi 2023-11-10 17.21.34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ekran Resmi 2023-11-10 17.21.34.png"; sourceTree = "<group>"; };
+		E226428A2B0FC549005DD885 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		E23942372B0DB47A00E04C03 /* CallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallViewController.swift; sourceTree = "<group>"; };
+		E23942392B0DB49100E04C03 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		E239423B2B0DB4BE00E04C03 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E239423D2B0DB4CA00E04C03 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		E239423F2B0DB4DE00E04C03 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		E23942412B0DB4F300E04C03 /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
+		E2AE35C22B0DC1C00092DC87 /* InfoTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableCell.swift; sourceTree = "<group>"; };
+		E2E2886F2B0C7D2D00FCCC60 /* VirtualNumberApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualNumberApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2E288722B0C7D2D00FCCC60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2E288742B0C7D2D00FCCC60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E2E288762B0C7D2D00FCCC60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E2E288792B0C7D2D00FCCC60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2E2887B2B0C7D3000FCCC60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2E2887E2B0C7D3000FCCC60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2E288802B0C7D3000FCCC60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		93C516312B139B3900F6D9DB /* Frameworks */ = {
+		E2E2886C2B0C7D2D00FCCC60 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93DD0DC4F4856150844A42E0 /* Pods_VirtualNumberApp.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		93C516472B139B3A00F6D9DB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1609E897DC00C5C464E2F4A0 /* Pods_VirtualNumberAppTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		93C516512B139B3A00F6D9DB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6180FFAD94A650EFE7E44377 /* Pods_VirtualNumberApp_VirtualNumberAppUITests.framework in Frameworks */,
+				8DF47995820318AB8E8F0B40 /* Pods_VirtualNumberApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3FB65C671BAA6D312431C24D /* Frameworks */ = {
+		15F1DF70C8FCF5988CA2C529 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				85843F6DC00E809CB6712059 /* Pods_VirtualNumberApp.framework */,
-				F91B54E281F7083AD92F0EFA /* Pods_VirtualNumberApp_VirtualNumberAppUITests.framework */,
-				5CC9E38F5BEC9C13E248FEC3 /* Pods_VirtualNumberAppTests.framework */,
+				58FAF3DAAA25D8C7C9684DED /* Pods-VirtualNumberApp.debug.xcconfig */,
+				3AC507B37603DC7727BD0D4C /* Pods-VirtualNumberApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AED4F0DA894E36AFD3BBA60C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6766F144B279E8005842B5B9 /* Pods_VirtualNumberApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		639935E2E13345F9B94D6934 /* Pods */ = {
+		E22642852B0FC478005DD885 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				B243B2FE446FF55ACE2C63E7 /* Pods-VirtualNumberApp.debug.xcconfig */,
-				804D995297BDA98278B6DA92 /* Pods-VirtualNumberApp.release.xcconfig */,
-				B9A10EACA209BA79386FD55D /* Pods-VirtualNumberApp-VirtualNumberAppUITests.debug.xcconfig */,
-				EFAEEC05459AE9F0DFB8AFEA /* Pods-VirtualNumberApp-VirtualNumberAppUITests.release.xcconfig */,
-				B16F9504A4B8E4C993830E38 /* Pods-VirtualNumberAppTests.debug.xcconfig */,
-				5A48EC10093C9EFBDCE17E1E /* Pods-VirtualNumberAppTests.release.xcconfig */,
+				E22642872B0FC48A005DD885 /* Ekran Resmi 2023-11-10 17.21.34.png */,
+				E22642862B0FC48A005DD885 /* Ekran Resmi 2023-11-10 17.21.03.png */,
 			);
-			name = Pods;
-			path = Pods;
+			path = Resource;
 			sourceTree = "<group>";
 		};
-		93C5162B2B139B3900F6D9DB = {
+		E226428C2B0FC553005DD885 /* DataSource */ = {
 			isa = PBXGroup;
 			children = (
-				93C516362B139B3900F6D9DB /* VirtualNumberApp */,
-				93C5164D2B139B3A00F6D9DB /* VirtualNumberAppTests */,
-				93C516572B139B3A00F6D9DB /* VirtualNumberAppUITests */,
-				93C516352B139B3900F6D9DB /* Products */,
-				639935E2E13345F9B94D6934 /* Pods */,
-				3FB65C671BAA6D312431C24D /* Frameworks */,
+				E226428A2B0FC549005DD885 /* DataSource.swift */,
 			);
+			path = DataSource;
 			sourceTree = "<group>";
 		};
-		93C516352B139B3900F6D9DB /* Products */ = {
+		E23942362B0DB45F00E04C03 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				93C516342B139B3900F6D9DB /* VirtualNumberApp.app */,
-				93C5164A2B139B3A00F6D9DB /* VirtualNumberAppTests.xctest */,
-				93C516542B139B3A00F6D9DB /* VirtualNumberAppUITests.xctest */,
+				E23942372B0DB47A00E04C03 /* CallViewController.swift */,
+				E23942392B0DB49100E04C03 /* ChatViewController.swift */,
+				E239423B2B0DB4BE00E04C03 /* HomeViewController.swift */,
+				E239423D2B0DB4CA00E04C03 /* InfoViewController.swift */,
+				E239423F2B0DB4DE00E04C03 /* NoteViewController.swift */,
+				E23942412B0DB4F300E04C03 /* TabbarController.swift */,
 			);
-			name = Products;
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		93C516362B139B3900F6D9DB /* VirtualNumberApp */ = {
+		E2AE35C12B0DC0E80092DC87 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				93C516672B139B6B00F6D9DB /* Data Source */,
-				93C5166A2B139B8F00F6D9DB /* Cells */,
-				93C516722B139D8500F6D9DB /* ViewControllers */,
-				93C516372B139B3900F6D9DB /* AppDelegate.swift */,
-				93C516392B139B3900F6D9DB /* SceneDelegate.swift */,
-				93C5163B2B139B3900F6D9DB /* ViewController.swift */,
-				93C5163D2B139B3900F6D9DB /* Main.storyboard */,
-				93C516402B139B3A00F6D9DB /* Assets.xcassets */,
-				93C516422B139B3A00F6D9DB /* LaunchScreen.storyboard */,
-				93C516452B139B3A00F6D9DB /* Info.plist */,
-			);
-			path = VirtualNumberApp;
-			sourceTree = "<group>";
-		};
-		93C5164D2B139B3A00F6D9DB /* VirtualNumberAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				93C5164E2B139B3A00F6D9DB /* VirtualNumberAppTests.swift */,
-			);
-			path = VirtualNumberAppTests;
-			sourceTree = "<group>";
-		};
-		93C516572B139B3A00F6D9DB /* VirtualNumberAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				93C516582B139B3A00F6D9DB /* VirtualNumberAppUITests.swift */,
-				93C5165A2B139B3A00F6D9DB /* VirtualNumberAppUITestsLaunchTests.swift */,
-			);
-			path = VirtualNumberAppUITests;
-			sourceTree = "<group>";
-		};
-		93C516672B139B6B00F6D9DB /* Data Source */ = {
-			isa = PBXGroup;
-			children = (
-				93C516682B139B8100F6D9DB /* DataSource.swift */,
-			);
-			path = "Data Source";
-			sourceTree = "<group>";
-		};
-		93C5166A2B139B8F00F6D9DB /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				93C5166B2B139BEA00F6D9DB /* MessagesListCell.swift */,
-				93C5166D2B139BFB00F6D9DB /* InfoTableCell.swift */,
-				93C5166F2B139C1500F6D9DB /* AdCell.swift */,
+				E202FF272B0DF47000D77A59 /* MessagesListCell.swift */,
+				E2AE35C22B0DC1C00092DC87 /* InfoTableCell.swift */,
+				E20B78E42B0F77AF002F5DCF /* AdCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
 		};
-		93C516722B139D8500F6D9DB /* ViewControllers */ = {
+		E2E288662B0C7D2D00FCCC60 = {
 			isa = PBXGroup;
 			children = (
-				93C516732B139D9E00F6D9DB /* CallViewController.swift */,
-				93C516752B139DCF00F6D9DB /* ChatViewController.swift */,
-				93C516772B139DE700F6D9DB /* HomeViewController.swift */,
-				93C516792B139DF600F6D9DB /* InfoViewController.swift */,
-				93C5167B2B139E0500F6D9DB /* NoteViewController.swift */,
-				93C5167D2B139E4700F6D9DB /* DashboardTabBarController.swift */,
+				E2E288712B0C7D2D00FCCC60 /* VirtualNumberApp */,
+				E2E288702B0C7D2D00FCCC60 /* Products */,
+				15F1DF70C8FCF5988CA2C529 /* Pods */,
+				AED4F0DA894E36AFD3BBA60C /* Frameworks */,
 			);
-			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E2E288702B0C7D2D00FCCC60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2E2886F2B0C7D2D00FCCC60 /* VirtualNumberApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2E288712B0C7D2D00FCCC60 /* VirtualNumberApp */ = {
+			isa = PBXGroup;
+			children = (
+				E226428C2B0FC553005DD885 /* DataSource */,
+				E22642852B0FC478005DD885 /* Resource */,
+				E2AE35C12B0DC0E80092DC87 /* Cells */,
+				E23942362B0DB45F00E04C03 /* ViewControllers */,
+				E2E288722B0C7D2D00FCCC60 /* AppDelegate.swift */,
+				E2E288742B0C7D2D00FCCC60 /* SceneDelegate.swift */,
+				E2E288762B0C7D2D00FCCC60 /* ViewController.swift */,
+				E2E288782B0C7D2D00FCCC60 /* Main.storyboard */,
+				E2E2887B2B0C7D3000FCCC60 /* Assets.xcassets */,
+				E2E2887D2B0C7D3000FCCC60 /* LaunchScreen.storyboard */,
+				E2E288802B0C7D3000FCCC60 /* Info.plist */,
+			);
+			path = VirtualNumberApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		93C516332B139B3900F6D9DB /* VirtualNumberApp */ = {
+		E2E2886E2B0C7D2D00FCCC60 /* VirtualNumberApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 93C5165E2B139B3A00F6D9DB /* Build configuration list for PBXNativeTarget "VirtualNumberApp" */;
+			buildConfigurationList = E2E288832B0C7D3000FCCC60 /* Build configuration list for PBXNativeTarget "VirtualNumberApp" */;
 			buildPhases = (
-				F1E95DC802896DA19BED43B0 /* [CP] Check Pods Manifest.lock */,
-				93C516302B139B3900F6D9DB /* Sources */,
-				93C516312B139B3900F6D9DB /* Frameworks */,
-				93C516322B139B3900F6D9DB /* Resources */,
-				93C516852B139EED00F6D9DB /* Embed Frameworks */,
-				C3753AAF971939EB50AD7183 /* [CP] Embed Pods Frameworks */,
+				FB517A5D998F1F6054E3935B /* [CP] Check Pods Manifest.lock */,
+				E2E2886B2B0C7D2D00FCCC60 /* Sources */,
+				E2E2886C2B0C7D2D00FCCC60 /* Frameworks */,
+				E2E2886D2B0C7D2D00FCCC60 /* Resources */,
+				4A36D1027B8AC02B092788E6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = VirtualNumberApp;
-			productName = VirtualNumberApp;
-			productReference = 93C516342B139B3900F6D9DB /* VirtualNumberApp.app */;
+			productName = Case3;
+			productReference = E2E2886F2B0C7D2D00FCCC60 /* VirtualNumberApp.app */;
 			productType = "com.apple.product-type.application";
-		};
-		93C516492B139B3A00F6D9DB /* VirtualNumberAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 93C516612B139B3A00F6D9DB /* Build configuration list for PBXNativeTarget "VirtualNumberAppTests" */;
-			buildPhases = (
-				95395A884ADB0E83E69A3A36 /* [CP] Check Pods Manifest.lock */,
-				93C516462B139B3A00F6D9DB /* Sources */,
-				93C516472B139B3A00F6D9DB /* Frameworks */,
-				93C516482B139B3A00F6D9DB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				93C5164C2B139B3A00F6D9DB /* PBXTargetDependency */,
-			);
-			name = VirtualNumberAppTests;
-			productName = VirtualNumberAppTests;
-			productReference = 93C5164A2B139B3A00F6D9DB /* VirtualNumberAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		93C516532B139B3A00F6D9DB /* VirtualNumberAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 93C516642B139B3A00F6D9DB /* Build configuration list for PBXNativeTarget "VirtualNumberAppUITests" */;
-			buildPhases = (
-				B4C123FC0124C67FCBE30972 /* [CP] Check Pods Manifest.lock */,
-				93C516502B139B3A00F6D9DB /* Sources */,
-				93C516512B139B3A00F6D9DB /* Frameworks */,
-				93C516522B139B3A00F6D9DB /* Resources */,
-				13D6B7093A515C21B0C7731C /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				93C516562B139B3A00F6D9DB /* PBXTargetDependency */,
-			);
-			name = VirtualNumberAppUITests;
-			productName = VirtualNumberAppUITests;
-			productReference = 93C516542B139B3A00F6D9DB /* VirtualNumberAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		93C5162C2B139B3900F6D9DB /* Project object */ = {
+		E2E288672B0C7D2D00FCCC60 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					93C516332B139B3900F6D9DB = {
-						CreatedOnToolsVersion = 15.0.1;
-					};
-					93C516492B139B3A00F6D9DB = {
-						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = 93C516332B139B3900F6D9DB;
-					};
-					93C516532B139B3A00F6D9DB = {
-						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = 93C516332B139B3900F6D9DB;
+					E2E2886E2B0C7D2D00FCCC60 = {
+						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 93C5162F2B139B3900F6D9DB /* Build configuration list for PBXProject "VirtualNumberApp" */;
+			buildConfigurationList = E2E2886A2B0C7D2D00FCCC60 /* Build configuration list for PBXProject "VirtualNumberApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -328,111 +204,33 @@
 				en,
 				Base,
 			);
-			mainGroup = 93C5162B2B139B3900F6D9DB;
-			packageReferences = (
-				93C516712B139CD800F6D9DB /* XCRemoteSwiftPackageReference "SnapKit.git" */,
-			);
-			productRefGroup = 93C516352B139B3900F6D9DB /* Products */;
+			mainGroup = E2E288662B0C7D2D00FCCC60;
+			productRefGroup = E2E288702B0C7D2D00FCCC60 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				93C516332B139B3900F6D9DB /* VirtualNumberApp */,
-				93C516492B139B3A00F6D9DB /* VirtualNumberAppTests */,
-				93C516532B139B3A00F6D9DB /* VirtualNumberAppUITests */,
+				E2E2886E2B0C7D2D00FCCC60 /* VirtualNumberApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		93C516322B139B3900F6D9DB /* Resources */ = {
+		E2E2886D2B0C7D2D00FCCC60 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93C516442B139B3A00F6D9DB /* LaunchScreen.storyboard in Resources */,
-				93C516412B139B3A00F6D9DB /* Assets.xcassets in Resources */,
-				93C5163F2B139B3900F6D9DB /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		93C516482B139B3A00F6D9DB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		93C516522B139B3A00F6D9DB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				E2E2887F2B0C7D3000FCCC60 /* LaunchScreen.storyboard in Resources */,
+				E22642882B0FC48B005DD885 /* Ekran Resmi 2023-11-10 17.21.03.png in Resources */,
+				E22642892B0FC48B005DD885 /* Ekran Resmi 2023-11-10 17.21.34.png in Resources */,
+				E2E2887C2B0C7D3000FCCC60 /* Assets.xcassets in Resources */,
+				E2E2887A2B0C7D2D00FCCC60 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		13D6B7093A515C21B0C7731C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VirtualNumberApp-VirtualNumberAppUITests/Pods-VirtualNumberApp-VirtualNumberAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VirtualNumberApp-VirtualNumberAppUITests/Pods-VirtualNumberApp-VirtualNumberAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VirtualNumberApp-VirtualNumberAppUITests/Pods-VirtualNumberApp-VirtualNumberAppUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		95395A884ADB0E83E69A3A36 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VirtualNumberAppTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B4C123FC0124C67FCBE30972 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VirtualNumberApp-VirtualNumberAppUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C3753AAF971939EB50AD7183 /* [CP] Embed Pods Frameworks */ = {
+		4A36D1027B8AC02B092788E6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -449,7 +247,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VirtualNumberApp/Pods-VirtualNumberApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F1E95DC802896DA19BED43B0 /* [CP] Check Pods Manifest.lock */ = {
+		FB517A5D998F1F6054E3935B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -474,71 +272,41 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		93C516302B139B3900F6D9DB /* Sources */ = {
+		E2E2886B2B0C7D2D00FCCC60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93C516702B139C1500F6D9DB /* AdCell.swift in Sources */,
-				93C5167A2B139DF600F6D9DB /* InfoViewController.swift in Sources */,
-				93C5163C2B139B3900F6D9DB /* ViewController.swift in Sources */,
-				93C516382B139B3900F6D9DB /* AppDelegate.swift in Sources */,
-				93C5167C2B139E0500F6D9DB /* NoteViewController.swift in Sources */,
-				93C5167E2B139E4700F6D9DB /* DashboardTabBarController.swift in Sources */,
-				93C5166C2B139BEA00F6D9DB /* MessagesListCell.swift in Sources */,
-				93C516692B139B8100F6D9DB /* DataSource.swift in Sources */,
-				93C516782B139DE700F6D9DB /* HomeViewController.swift in Sources */,
-				93C5166E2B139BFB00F6D9DB /* InfoTableCell.swift in Sources */,
-				93C516742B139D9E00F6D9DB /* CallViewController.swift in Sources */,
-				93C516762B139DCF00F6D9DB /* ChatViewController.swift in Sources */,
-				93C5163A2B139B3900F6D9DB /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		93C516462B139B3A00F6D9DB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				93C5164F2B139B3A00F6D9DB /* VirtualNumberAppTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		93C516502B139B3A00F6D9DB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				93C516592B139B3A00F6D9DB /* VirtualNumberAppUITests.swift in Sources */,
-				93C5165B2B139B3A00F6D9DB /* VirtualNumberAppUITestsLaunchTests.swift in Sources */,
+				E20B78E52B0F77B0002F5DCF /* AdCell.swift in Sources */,
+				E23942402B0DB4DE00E04C03 /* NoteViewController.swift in Sources */,
+				E2E288772B0C7D2D00FCCC60 /* ViewController.swift in Sources */,
+				E226428B2B0FC549005DD885 /* DataSource.swift in Sources */,
+				E2E288732B0C7D2D00FCCC60 /* AppDelegate.swift in Sources */,
+				E202FF282B0DF47000D77A59 /* MessagesListCell.swift in Sources */,
+				E23942382B0DB47B00E04C03 /* CallViewController.swift in Sources */,
+				E239423E2B0DB4CA00E04C03 /* InfoViewController.swift in Sources */,
+				E239423A2B0DB49100E04C03 /* ChatViewController.swift in Sources */,
+				E2AE35C32B0DC1C00092DC87 /* InfoTableCell.swift in Sources */,
+				E2E288752B0C7D2D00FCCC60 /* SceneDelegate.swift in Sources */,
+				E23942422B0DB4F300E04C03 /* TabbarController.swift in Sources */,
+				E239423C2B0DB4BE00E04C03 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		93C5164C2B139B3A00F6D9DB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 93C516332B139B3900F6D9DB /* VirtualNumberApp */;
-			targetProxy = 93C5164B2B139B3A00F6D9DB /* PBXContainerItemProxy */;
-		};
-		93C516562B139B3A00F6D9DB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 93C516332B139B3900F6D9DB /* VirtualNumberApp */;
-			targetProxy = 93C516552B139B3A00F6D9DB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		93C5163D2B139B3900F6D9DB /* Main.storyboard */ = {
+		E2E288782B0C7D2D00FCCC60 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				93C5163E2B139B3900F6D9DB /* Base */,
+				E2E288792B0C7D2D00FCCC60 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		93C516422B139B3A00F6D9DB /* LaunchScreen.storyboard */ = {
+		E2E2887D2B0C7D3000FCCC60 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				93C516432B139B3A00F6D9DB /* Base */,
+				E2E2887E2B0C7D3000FCCC60 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -546,11 +314,10 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		93C5165C2B139B3A00F6D9DB /* Debug */ = {
+		E2E288812B0C7D3000FCCC60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -583,8 +350,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -598,22 +364,20 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		93C5165D2B139B3A00F6D9DB /* Release */ = {
+		E2E288822B0C7D3000FCCC60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -646,8 +410,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -655,25 +418,25 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		93C5165F2B139B3A00F6D9DB /* Debug */ = {
+		E2E288842B0C7D3000FCCC60 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B243B2FE446FF55ACE2C63E7 /* Pods-VirtualNumberApp.debug.xcconfig */;
+			baseConfigurationReference = 58FAF3DAAA25D8C7C9684DED /* Pods-VirtualNumberApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = V589SGPG67;
+				DEVELOPMENT_TEAM = XKH7A64CLC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VirtualNumberApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -694,15 +457,15 @@
 			};
 			name = Debug;
 		};
-		93C516602B139B3A00F6D9DB /* Release */ = {
+		E2E288852B0C7D3000FCCC60 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 804D995297BDA98278B6DA92 /* Pods-VirtualNumberApp.release.xcconfig */;
+			baseConfigurationReference = 3AC507B37603DC7727BD0D4C /* Pods-VirtualNumberApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = V589SGPG67;
+				DEVELOPMENT_TEAM = XKH7A64CLC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VirtualNumberApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -720,140 +483,31 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		93C516622B139B3A00F6D9DB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B16F9504A4B8E4C993830E38 /* Pods-VirtualNumberAppTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = V589SGPG67;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.furkanbasoglu.VirtualNumberAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualNumberApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VirtualNumberApp";
-			};
-			name = Debug;
-		};
-		93C516632B139B3A00F6D9DB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A48EC10093C9EFBDCE17E1E /* Pods-VirtualNumberAppTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = V589SGPG67;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.furkanbasoglu.VirtualNumberAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualNumberApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VirtualNumberApp";
-			};
-			name = Release;
-		};
-		93C516652B139B3A00F6D9DB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9A10EACA209BA79386FD55D /* Pods-VirtualNumberApp-VirtualNumberAppUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = V589SGPG67;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.furkanbasoglu.VirtualNumberAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = VirtualNumberApp;
-			};
-			name = Debug;
-		};
-		93C516662B139B3A00F6D9DB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFAEEC05459AE9F0DFB8AFEA /* Pods-VirtualNumberApp-VirtualNumberAppUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = V589SGPG67;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.furkanbasoglu.VirtualNumberAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = VirtualNumberApp;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		93C5162F2B139B3900F6D9DB /* Build configuration list for PBXProject "VirtualNumberApp" */ = {
+		E2E2886A2B0C7D2D00FCCC60 /* Build configuration list for PBXProject "VirtualNumberApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				93C5165C2B139B3A00F6D9DB /* Debug */,
-				93C5165D2B139B3A00F6D9DB /* Release */,
+				E2E288812B0C7D3000FCCC60 /* Debug */,
+				E2E288822B0C7D3000FCCC60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		93C5165E2B139B3A00F6D9DB /* Build configuration list for PBXNativeTarget "VirtualNumberApp" */ = {
+		E2E288832B0C7D3000FCCC60 /* Build configuration list for PBXNativeTarget "VirtualNumberApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				93C5165F2B139B3A00F6D9DB /* Debug */,
-				93C516602B139B3A00F6D9DB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		93C516612B139B3A00F6D9DB /* Build configuration list for PBXNativeTarget "VirtualNumberAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				93C516622B139B3A00F6D9DB /* Debug */,
-				93C516632B139B3A00F6D9DB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		93C516642B139B3A00F6D9DB /* Build configuration list for PBXNativeTarget "VirtualNumberAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				93C516652B139B3A00F6D9DB /* Debug */,
-				93C516662B139B3A00F6D9DB /* Release */,
+				E2E288842B0C7D3000FCCC60 /* Debug */,
+				E2E288852B0C7D3000FCCC60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		93C516712B139CD800F6D9DB /* XCRemoteSwiftPackageReference "SnapKit.git" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.6.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
 	};
-	rootObject = 93C5162C2B139B3900F6D9DB /* Project object */;
+	rootObject = E2E288672B0C7D2D00FCCC60 /* Project object */;
 }
