@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  VirtualNumberApp
 //
-//  Created by Furkan BAŞOĞLU on 26.11.2023.
+//  Created by Furkan BAŞOĞLU on 21.11.2023.
 //
 
 import UIKit
@@ -10,10 +10,13 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        let mainViewController = DashboardTabBarController()
+        window?.rootViewController = mainViewController
+        window?.makeKeyAndVisible()
         return true
     }
 
@@ -33,4 +36,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-

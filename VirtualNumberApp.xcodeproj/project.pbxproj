@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1609E897DC00C5C464E2F4A0 /* Pods_VirtualNumberAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC9E38F5BEC9C13E248FEC3 /* Pods_VirtualNumberAppTests.framework */; };
+		6180FFAD94A650EFE7E44377 /* Pods_VirtualNumberApp_VirtualNumberAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91B54E281F7083AD92F0EFA /* Pods_VirtualNumberApp_VirtualNumberAppUITests.framework */; };
 		93C516382B139B3900F6D9DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C516372B139B3900F6D9DB /* AppDelegate.swift */; };
 		93C5163A2B139B3900F6D9DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C516392B139B3900F6D9DB /* SceneDelegate.swift */; };
 		93C5163C2B139B3900F6D9DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C5163B2B139B3900F6D9DB /* ViewController.swift */; };
@@ -16,6 +18,17 @@
 		93C5164F2B139B3A00F6D9DB /* VirtualNumberAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C5164E2B139B3A00F6D9DB /* VirtualNumberAppTests.swift */; };
 		93C516592B139B3A00F6D9DB /* VirtualNumberAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C516582B139B3A00F6D9DB /* VirtualNumberAppUITests.swift */; };
 		93C5165B2B139B3A00F6D9DB /* VirtualNumberAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C5165A2B139B3A00F6D9DB /* VirtualNumberAppUITestsLaunchTests.swift */; };
+		93C516692B139B8100F6D9DB /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C516682B139B8100F6D9DB /* DataSource.swift */; };
+		93C5166C2B139BEA00F6D9DB /* MessagesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C5166B2B139BEA00F6D9DB /* MessagesListCell.swift */; };
+		93C5166E2B139BFB00F6D9DB /* InfoTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C5166D2B139BFB00F6D9DB /* InfoTableCell.swift */; };
+		93C516702B139C1500F6D9DB /* AdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C5166F2B139C1500F6D9DB /* AdCell.swift */; };
+		93C516742B139D9E00F6D9DB /* CallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C516732B139D9E00F6D9DB /* CallViewController.swift */; };
+		93C516762B139DCF00F6D9DB /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C516752B139DCF00F6D9DB /* ChatViewController.swift */; };
+		93C516782B139DE700F6D9DB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C516772B139DE700F6D9DB /* HomeViewController.swift */; };
+		93C5167A2B139DF600F6D9DB /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C516792B139DF600F6D9DB /* InfoViewController.swift */; };
+		93C5167C2B139E0500F6D9DB /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C5167B2B139E0500F6D9DB /* NoteViewController.swift */; };
+		93C5167E2B139E4700F6D9DB /* DashboardTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C5167D2B139E4700F6D9DB /* DashboardTabBarController.swift */; };
+		93DD0DC4F4856150844A42E0 /* Pods_VirtualNumberApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85843F6DC00E809CB6712059 /* Pods_VirtualNumberApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +48,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		93C516852B139EED00F6D9DB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5A48EC10093C9EFBDCE17E1E /* Pods-VirtualNumberAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualNumberAppTests.release.xcconfig"; path = "Target Support Files/Pods-VirtualNumberAppTests/Pods-VirtualNumberAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		5CC9E38F5BEC9C13E248FEC3 /* Pods_VirtualNumberAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirtualNumberAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		804D995297BDA98278B6DA92 /* Pods-VirtualNumberApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualNumberApp.release.xcconfig"; path = "Target Support Files/Pods-VirtualNumberApp/Pods-VirtualNumberApp.release.xcconfig"; sourceTree = "<group>"; };
+		85843F6DC00E809CB6712059 /* Pods_VirtualNumberApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirtualNumberApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93C516342B139B3900F6D9DB /* VirtualNumberApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualNumberApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93C516372B139B3900F6D9DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93C516392B139B3900F6D9DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +79,21 @@
 		93C516542B139B3A00F6D9DB /* VirtualNumberAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualNumberAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93C516582B139B3A00F6D9DB /* VirtualNumberAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualNumberAppUITests.swift; sourceTree = "<group>"; };
 		93C5165A2B139B3A00F6D9DB /* VirtualNumberAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualNumberAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		93C516682B139B8100F6D9DB /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		93C5166B2B139BEA00F6D9DB /* MessagesListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesListCell.swift; sourceTree = "<group>"; };
+		93C5166D2B139BFB00F6D9DB /* InfoTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableCell.swift; sourceTree = "<group>"; };
+		93C5166F2B139C1500F6D9DB /* AdCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdCell.swift; sourceTree = "<group>"; };
+		93C516732B139D9E00F6D9DB /* CallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallViewController.swift; sourceTree = "<group>"; };
+		93C516752B139DCF00F6D9DB /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		93C516772B139DE700F6D9DB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		93C516792B139DF600F6D9DB /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		93C5167B2B139E0500F6D9DB /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		93C5167D2B139E4700F6D9DB /* DashboardTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTabBarController.swift; sourceTree = "<group>"; };
+		B16F9504A4B8E4C993830E38 /* Pods-VirtualNumberAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualNumberAppTests.debug.xcconfig"; path = "Target Support Files/Pods-VirtualNumberAppTests/Pods-VirtualNumberAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B243B2FE446FF55ACE2C63E7 /* Pods-VirtualNumberApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualNumberApp.debug.xcconfig"; path = "Target Support Files/Pods-VirtualNumberApp/Pods-VirtualNumberApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B9A10EACA209BA79386FD55D /* Pods-VirtualNumberApp-VirtualNumberAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualNumberApp-VirtualNumberAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-VirtualNumberApp-VirtualNumberAppUITests/Pods-VirtualNumberApp-VirtualNumberAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFAEEC05459AE9F0DFB8AFEA /* Pods-VirtualNumberApp-VirtualNumberAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualNumberApp-VirtualNumberAppUITests.release.xcconfig"; path = "Target Support Files/Pods-VirtualNumberApp-VirtualNumberAppUITests/Pods-VirtualNumberApp-VirtualNumberAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F91B54E281F7083AD92F0EFA /* Pods_VirtualNumberApp_VirtualNumberAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirtualNumberApp_VirtualNumberAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93DD0DC4F4856150844A42E0 /* Pods_VirtualNumberApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1609E897DC00C5C464E2F4A0 /* Pods_VirtualNumberAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +117,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6180FFAD94A650EFE7E44377 /* Pods_VirtualNumberApp_VirtualNumberAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FB65C671BAA6D312431C24D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85843F6DC00E809CB6712059 /* Pods_VirtualNumberApp.framework */,
+				F91B54E281F7083AD92F0EFA /* Pods_VirtualNumberApp_VirtualNumberAppUITests.framework */,
+				5CC9E38F5BEC9C13E248FEC3 /* Pods_VirtualNumberAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		639935E2E13345F9B94D6934 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B243B2FE446FF55ACE2C63E7 /* Pods-VirtualNumberApp.debug.xcconfig */,
+				804D995297BDA98278B6DA92 /* Pods-VirtualNumberApp.release.xcconfig */,
+				B9A10EACA209BA79386FD55D /* Pods-VirtualNumberApp-VirtualNumberAppUITests.debug.xcconfig */,
+				EFAEEC05459AE9F0DFB8AFEA /* Pods-VirtualNumberApp-VirtualNumberAppUITests.release.xcconfig */,
+				B16F9504A4B8E4C993830E38 /* Pods-VirtualNumberAppTests.debug.xcconfig */,
+				5A48EC10093C9EFBDCE17E1E /* Pods-VirtualNumberAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		93C5162B2B139B3900F6D9DB = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +155,8 @@
 				93C5164D2B139B3A00F6D9DB /* VirtualNumberAppTests */,
 				93C516572B139B3A00F6D9DB /* VirtualNumberAppUITests */,
 				93C516352B139B3900F6D9DB /* Products */,
+				639935E2E13345F9B94D6934 /* Pods */,
+				3FB65C671BAA6D312431C24D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +173,9 @@
 		93C516362B139B3900F6D9DB /* VirtualNumberApp */ = {
 			isa = PBXGroup;
 			children = (
+				93C516672B139B6B00F6D9DB /* Data Source */,
+				93C5166A2B139B8F00F6D9DB /* Cells */,
+				93C516722B139D8500F6D9DB /* ViewControllers */,
 				93C516372B139B3900F6D9DB /* AppDelegate.swift */,
 				93C516392B139B3900F6D9DB /* SceneDelegate.swift */,
 				93C5163B2B139B3900F6D9DB /* ViewController.swift */,
@@ -127,6 +204,37 @@
 			path = VirtualNumberAppUITests;
 			sourceTree = "<group>";
 		};
+		93C516672B139B6B00F6D9DB /* Data Source */ = {
+			isa = PBXGroup;
+			children = (
+				93C516682B139B8100F6D9DB /* DataSource.swift */,
+			);
+			path = "Data Source";
+			sourceTree = "<group>";
+		};
+		93C5166A2B139B8F00F6D9DB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				93C5166B2B139BEA00F6D9DB /* MessagesListCell.swift */,
+				93C5166D2B139BFB00F6D9DB /* InfoTableCell.swift */,
+				93C5166F2B139C1500F6D9DB /* AdCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		93C516722B139D8500F6D9DB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				93C516732B139D9E00F6D9DB /* CallViewController.swift */,
+				93C516752B139DCF00F6D9DB /* ChatViewController.swift */,
+				93C516772B139DE700F6D9DB /* HomeViewController.swift */,
+				93C516792B139DF600F6D9DB /* InfoViewController.swift */,
+				93C5167B2B139E0500F6D9DB /* NoteViewController.swift */,
+				93C5167D2B139E4700F6D9DB /* DashboardTabBarController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +242,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93C5165E2B139B3A00F6D9DB /* Build configuration list for PBXNativeTarget "VirtualNumberApp" */;
 			buildPhases = (
+				F1E95DC802896DA19BED43B0 /* [CP] Check Pods Manifest.lock */,
 				93C516302B139B3900F6D9DB /* Sources */,
 				93C516312B139B3900F6D9DB /* Frameworks */,
 				93C516322B139B3900F6D9DB /* Resources */,
+				93C516852B139EED00F6D9DB /* Embed Frameworks */,
+				C3753AAF971939EB50AD7183 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +262,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93C516612B139B3A00F6D9DB /* Build configuration list for PBXNativeTarget "VirtualNumberAppTests" */;
 			buildPhases = (
+				95395A884ADB0E83E69A3A36 /* [CP] Check Pods Manifest.lock */,
 				93C516462B139B3A00F6D9DB /* Sources */,
 				93C516472B139B3A00F6D9DB /* Frameworks */,
 				93C516482B139B3A00F6D9DB /* Resources */,
@@ -169,9 +281,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93C516642B139B3A00F6D9DB /* Build configuration list for PBXNativeTarget "VirtualNumberAppUITests" */;
 			buildPhases = (
+				B4C123FC0124C67FCBE30972 /* [CP] Check Pods Manifest.lock */,
 				93C516502B139B3A00F6D9DB /* Sources */,
 				93C516512B139B3A00F6D9DB /* Frameworks */,
 				93C516522B139B3A00F6D9DB /* Resources */,
+				13D6B7093A515C21B0C7731C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +329,9 @@
 				Base,
 			);
 			mainGroup = 93C5162B2B139B3900F6D9DB;
+			packageReferences = (
+				93C516712B139CD800F6D9DB /* XCRemoteSwiftPackageReference "SnapKit.git" */,
+			);
 			productRefGroup = 93C516352B139B3900F6D9DB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -253,13 +370,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13D6B7093A515C21B0C7731C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VirtualNumberApp-VirtualNumberAppUITests/Pods-VirtualNumberApp-VirtualNumberAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VirtualNumberApp-VirtualNumberAppUITests/Pods-VirtualNumberApp-VirtualNumberAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VirtualNumberApp-VirtualNumberAppUITests/Pods-VirtualNumberApp-VirtualNumberAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95395A884ADB0E83E69A3A36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VirtualNumberAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4C123FC0124C67FCBE30972 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VirtualNumberApp-VirtualNumberAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3753AAF971939EB50AD7183 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VirtualNumberApp/Pods-VirtualNumberApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VirtualNumberApp/Pods-VirtualNumberApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VirtualNumberApp/Pods-VirtualNumberApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1E95DC802896DA19BED43B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VirtualNumberApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		93C516302B139B3900F6D9DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93C516702B139C1500F6D9DB /* AdCell.swift in Sources */,
+				93C5167A2B139DF600F6D9DB /* InfoViewController.swift in Sources */,
 				93C5163C2B139B3900F6D9DB /* ViewController.swift in Sources */,
 				93C516382B139B3900F6D9DB /* AppDelegate.swift in Sources */,
+				93C5167C2B139E0500F6D9DB /* NoteViewController.swift in Sources */,
+				93C5167E2B139E4700F6D9DB /* DashboardTabBarController.swift in Sources */,
+				93C5166C2B139BEA00F6D9DB /* MessagesListCell.swift in Sources */,
+				93C516692B139B8100F6D9DB /* DataSource.swift in Sources */,
+				93C516782B139DE700F6D9DB /* HomeViewController.swift in Sources */,
+				93C5166E2B139BFB00F6D9DB /* InfoTableCell.swift in Sources */,
+				93C516742B139D9E00F6D9DB /* CallViewController.swift in Sources */,
+				93C516762B139DCF00F6D9DB /* ChatViewController.swift in Sources */,
 				93C5163A2B139B3900F6D9DB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +667,7 @@
 		};
 		93C5165F2B139B3A00F6D9DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B243B2FE446FF55ACE2C63E7 /* Pods-VirtualNumberApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -465,6 +696,7 @@
 		};
 		93C516602B139B3A00F6D9DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 804D995297BDA98278B6DA92 /* Pods-VirtualNumberApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -493,6 +725,7 @@
 		};
 		93C516622B139B3A00F6D9DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B16F9504A4B8E4C993830E38 /* Pods-VirtualNumberAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +746,7 @@
 		};
 		93C516632B139B3A00F6D9DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A48EC10093C9EFBDCE17E1E /* Pods-VirtualNumberAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +767,7 @@
 		};
 		93C516652B139B3A00F6D9DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9A10EACA209BA79386FD55D /* Pods-VirtualNumberApp-VirtualNumberAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -551,6 +786,7 @@
 		};
 		93C516662B139B3A00F6D9DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFAEEC05459AE9F0DFB8AFEA /* Pods-VirtualNumberApp-VirtualNumberAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -607,6 +843,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		93C516712B139CD800F6D9DB /* XCRemoteSwiftPackageReference "SnapKit.git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 93C5162C2B139B3900F6D9DB /* Project object */;
 }

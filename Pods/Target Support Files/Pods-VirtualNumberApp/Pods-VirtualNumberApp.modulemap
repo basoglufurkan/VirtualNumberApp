@@ -1,0 +1,6 @@
+framework module Pods_VirtualNumberApp {
+  umbrella header "Pods-VirtualNumberApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
