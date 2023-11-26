@@ -134,19 +134,19 @@ enum CountryList {
     func getRightText() -> String {
         switch self {
         case .uk:
-            return "Basariliv"
+            return "Başarılı"
         case .usa:
-            return "Basariliv"
+            return "Başarılı"
         case .france:
-            return "Basariliv"
+            return "Başarılı"
         case .mexico:
-            return "Basarisiz"
+            return "Başarısız"
         case .portugal:
-            return "Basariliv"
+            return "Başarılı"
         case .philipinse:
-            return "Basariliv"
+            return "Başarılı"
         case .vietnam:
-            return "Basariliv"
+            return "Başarılı"
         }
     }
 

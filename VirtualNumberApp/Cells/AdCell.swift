@@ -52,7 +52,7 @@ class AdCell : UITableViewCell {
         view.font = .systemFont(ofSize: 12)
         view.textColor = .gray
         view.numberOfLines = 2
-        view.text = "Dunya capinda 400 \nmilyondan fazla kisi bu ...."
+        view.text = "Dünya çapında 400 \nmilyondan fazla kişi bu ...."
         return view
     }()
 
@@ -65,7 +65,7 @@ class AdCell : UITableViewCell {
     private lazy var lableWhite: UIView = {
         let view = UILabel()
         view.font = .boldSystemFont(ofSize: 15)
-        view.text = "YŪkleyin"
+        view.text = "YÜKLEYİN"
         view.textAlignment = .center
         view.textColor = UIColor.white
         return view
