@@ -38,7 +38,7 @@ class DashboardTabBarController: UITabBarController, UITabBarControllerDelegate 
 
     //Delegate methods
     func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
-        print("Should select viewController: \(viewController.title ?? "") ?")
+//        print("Should select viewController: \(viewController.title ?? "") ?")
         return true;
     }
 }

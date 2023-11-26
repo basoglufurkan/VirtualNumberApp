@@ -10,8 +10,6 @@
 		8DF47995820318AB8E8F0B40 /* Pods_VirtualNumberApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6766F144B279E8005842B5B9 /* Pods_VirtualNumberApp.framework */; };
 		E202FF282B0DF47000D77A59 /* MessagesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E202FF272B0DF47000D77A59 /* MessagesListCell.swift */; };
 		E20B78E52B0F77B0002F5DCF /* AdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20B78E42B0F77AF002F5DCF /* AdCell.swift */; };
-		E22642882B0FC48B005DD885 /* Ekran Resmi 2023-11-10 17.21.03.png in Resources */ = {isa = PBXBuildFile; fileRef = E22642862B0FC48A005DD885 /* Ekran Resmi 2023-11-10 17.21.03.png */; };
-		E22642892B0FC48B005DD885 /* Ekran Resmi 2023-11-10 17.21.34.png in Resources */ = {isa = PBXBuildFile; fileRef = E22642872B0FC48A005DD885 /* Ekran Resmi 2023-11-10 17.21.34.png */; };
 		E226428B2B0FC549005DD885 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E226428A2B0FC549005DD885 /* DataSource.swift */; };
 		E23942382B0DB47B00E04C03 /* CallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23942372B0DB47A00E04C03 /* CallViewController.swift */; };
 		E239423A2B0DB49100E04C03 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23942392B0DB49100E04C03 /* ChatViewController.swift */; };
@@ -22,7 +20,6 @@
 		E2AE35C32B0DC1C00092DC87 /* InfoTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AE35C22B0DC1C00092DC87 /* InfoTableCell.swift */; };
 		E2E288732B0C7D2D00FCCC60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E288722B0C7D2D00FCCC60 /* AppDelegate.swift */; };
 		E2E288752B0C7D2D00FCCC60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E288742B0C7D2D00FCCC60 /* SceneDelegate.swift */; };
-		E2E288772B0C7D2D00FCCC60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E288762B0C7D2D00FCCC60 /* ViewController.swift */; };
 		E2E2887A2B0C7D2D00FCCC60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2E288782B0C7D2D00FCCC60 /* Main.storyboard */; };
 		E2E2887C2B0C7D3000FCCC60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2E2887B2B0C7D3000FCCC60 /* Assets.xcassets */; };
 		E2E2887F2B0C7D3000FCCC60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2E2887D2B0C7D3000FCCC60 /* LaunchScreen.storyboard */; };
@@ -34,8 +31,6 @@
 		6766F144B279E8005842B5B9 /* Pods_VirtualNumberApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirtualNumberApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E202FF272B0DF47000D77A59 /* MessagesListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesListCell.swift; sourceTree = "<group>"; };
 		E20B78E42B0F77AF002F5DCF /* AdCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdCell.swift; sourceTree = "<group>"; };
-		E22642862B0FC48A005DD885 /* Ekran Resmi 2023-11-10 17.21.03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ekran Resmi 2023-11-10 17.21.03.png"; sourceTree = "<group>"; };
-		E22642872B0FC48A005DD885 /* Ekran Resmi 2023-11-10 17.21.34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ekran Resmi 2023-11-10 17.21.34.png"; sourceTree = "<group>"; };
 		E226428A2B0FC549005DD885 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		E23942372B0DB47A00E04C03 /* CallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallViewController.swift; sourceTree = "<group>"; };
 		E23942392B0DB49100E04C03 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
@@ -47,7 +42,6 @@
 		E2E2886F2B0C7D2D00FCCC60 /* VirtualNumberApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualNumberApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2E288722B0C7D2D00FCCC60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2E288742B0C7D2D00FCCC60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E2E288762B0C7D2D00FCCC60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E2E288792B0C7D2D00FCCC60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2E2887B2B0C7D3000FCCC60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2E2887E2B0C7D3000FCCC60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -86,8 +80,8 @@
 		E22642852B0FC478005DD885 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				E22642872B0FC48A005DD885 /* Ekran Resmi 2023-11-10 17.21.34.png */,
-				E22642862B0FC48A005DD885 /* Ekran Resmi 2023-11-10 17.21.03.png */,
+				E2E288722B0C7D2D00FCCC60 /* AppDelegate.swift */,
+				E2E288742B0C7D2D00FCCC60 /* SceneDelegate.swift */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -144,15 +138,12 @@
 		E2E288712B0C7D2D00FCCC60 /* VirtualNumberApp */ = {
 			isa = PBXGroup;
 			children = (
-				E226428C2B0FC553005DD885 /* DataSource */,
 				E22642852B0FC478005DD885 /* Resource */,
+				E226428C2B0FC553005DD885 /* DataSource */,
 				E2AE35C12B0DC0E80092DC87 /* Cells */,
 				E23942362B0DB45F00E04C03 /* ViewControllers */,
-				E2E288722B0C7D2D00FCCC60 /* AppDelegate.swift */,
-				E2E288742B0C7D2D00FCCC60 /* SceneDelegate.swift */,
-				E2E288762B0C7D2D00FCCC60 /* ViewController.swift */,
-				E2E288782B0C7D2D00FCCC60 /* Main.storyboard */,
 				E2E2887B2B0C7D3000FCCC60 /* Assets.xcassets */,
+				E2E288782B0C7D2D00FCCC60 /* Main.storyboard */,
 				E2E2887D2B0C7D3000FCCC60 /* LaunchScreen.storyboard */,
 				E2E288802B0C7D3000FCCC60 /* Info.plist */,
 			);
@@ -220,8 +211,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2E2887F2B0C7D3000FCCC60 /* LaunchScreen.storyboard in Resources */,
-				E22642882B0FC48B005DD885 /* Ekran Resmi 2023-11-10 17.21.03.png in Resources */,
-				E22642892B0FC48B005DD885 /* Ekran Resmi 2023-11-10 17.21.34.png in Resources */,
 				E2E2887C2B0C7D3000FCCC60 /* Assets.xcassets in Resources */,
 				E2E2887A2B0C7D2D00FCCC60 /* Main.storyboard in Resources */,
 			);
@@ -278,7 +267,6 @@
 			files = (
 				E20B78E52B0F77B0002F5DCF /* AdCell.swift in Sources */,
 				E23942402B0DB4DE00E04C03 /* NoteViewController.swift in Sources */,
-				E2E288772B0C7D2D00FCCC60 /* ViewController.swift in Sources */,
 				E226428B2B0FC549005DD885 /* DataSource.swift in Sources */,
 				E2E288732B0C7D2D00FCCC60 /* AppDelegate.swift in Sources */,
 				E202FF282B0DF47000D77A59 /* MessagesListCell.swift in Sources */,
